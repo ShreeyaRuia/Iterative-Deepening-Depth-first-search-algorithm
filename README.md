@@ -18,3 +18,8 @@ step.
 * Since iterative deepening visits states multiple times, it may seem wasteful, but it turns out to be not so costly, since in a tree most of the nodes are in the bottom level, so it does not matter much if the upper levels are visited multiple times.
 
 ---
+
+### Technology and libraries used:
+* Python
+* Networkx ( Visualization in tree like structures)
+* Matplotlib( To plot the Graphs more refinely)
