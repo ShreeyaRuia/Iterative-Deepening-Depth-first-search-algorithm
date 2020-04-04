@@ -11,6 +11,9 @@ will be visualized on the screen. You can use different colors to represent each
 step.
 
 ---
+### Execution:
+![](Executionvideo.mp4)
+
 ## About Iterative Deepening:
 * In computer science, iterative deepening search or more specifically iterative deepening depth-first search[2] (IDS or IDDFS) is a state space/graph search strategy in which a depth-limited version of depth-first search is run repeatedly with increasing depth limits until the goal is found. IDDFS is optimal like breadth-first search, but uses much less memory; at each iteration, it visits the nodes in the search tree in the same order as depth-first search, but the cumulative order in which nodes are first visited is effectively breadth-first.
 * IDDFS combines depth-first search’s space-efficiency and breadth-first search’s fast search (for nodes closer to root).
