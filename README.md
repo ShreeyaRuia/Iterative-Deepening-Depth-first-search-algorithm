@@ -19,6 +19,8 @@ step.
 * IDDFS combines depth-first search’s space-efficiency and breadth-first search’s fast search (for nodes closer to root).
 * IDDFS calls DFS for different depths starting from an initial value. In every call, DFS is restricted from going beyond given depth. So basically we do DFS in a BFS fashion.
 * Since iterative deepening visits states multiple times, it may seem wasteful, but it turns out to be not so costly, since in a tree most of the nodes are in the bottom level, so it does not matter much if the upper levels are visited multiple times.
+* The running time of the depth-first iterative deepening search is O(b^d).
+* The space complexity of IDDFS is O(d) where d is the depth of the goal.
 
 ---
 
